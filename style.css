@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.fixedside{
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+  width: 40%;
+  height: 753px;
+  position: fixed;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.avatar{
+  background-image: url(./images/avatar.jpg);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin-top: 100px;
+  margin-right: 50px;
+  align-self: flex-end;
+  box-shadow: 1px 1px 1px black;
+}
+
+.header__title{
+  align-self: flex-end;
+  justify-content: right;
+  width: 250px;
+  height: 100px;
+  text-align: end;
+  margin-top: 50px;
+  margin-right: 50px;
+  color: darkgray;
+  text-shadow: 1px 1px 0px black;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.header__title spam{
+  color: lightgray;
+}
+
+.header__titlesing {
+  align-self: flex-end;
+  color: white;
+  width: 250px;
+  margin-top: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: right;
+  color: rgb(82, 82, 82);
+}
+
+.header__titlesing a{
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 200px;
+}
+
+.social_media{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social_media a{
+  text-decoration: none;
+  letter-spacing: 5px;
+  margin-right: 50px;
+}
+
+.icon{
+  color: lightgray;
+  font-size: 18px;
+}
+
+.footer__dev{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-right: 50px;
+  color: rgb(82, 82, 82);
+}
+
+.footer__dev a{
+  text-decoration: none;
+  color: darkgray;
+}
+
+
+main{
+  width: 50%;
+  margin: 0 0 0 45% ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Section 1 - Main*/
+
+.main__title{
+  margin: 100px 0 50px 0;
+  font-size: 30px;
+  color: gray;
+}
+
+.main__parag{
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.btn{
+  padding: 15px 30px;
+  border: 2px;
+  border-color: gray;
+  color: darkgray;
+  font-weight: 700;
+  font-size: 20px;
+}
